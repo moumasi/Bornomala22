@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-03T19:47:03 EDT" name="Default suite" finished-at="2023-10-03T19:47:20 EDT" duration-ms="17044">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:borno_testRunner.borno_TestRunner@4e5ed836]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-03T19:47:03 EDT" name="Default test" finished-at="2023-10-03T19:47:20 EDT" duration-ms="17044">
+      <class name="borno_testRunner.borno_TestRunner">
+        <test-method is-config="true" signature="bornoSTARTurl()[pri:0, instance:borno_testRunner.borno_TestRunner@4e5ed836]" started-at="2023-10-03T19:47:03 EDT" name="bornoSTARTurl" finished-at="2023-10-03T19:47:06 EDT" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bornoSTARTurl -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:borno_testRunner.borno_TestRunner@4e5ed836]" started-at="2023-10-03T19:47:06 EDT" name="setUpClass" finished-at="2023-10-03T19:47:06 EDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:borno_testRunner.borno_TestRunner@4e5ed836]" started-at="2023-10-03T19:47:06 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-10-03T19:47:20 EDT" duration-ms="14244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is an account creation functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:borno_testRunner.borno_TestRunner@4e5ed836]" started-at="2023-10-03T19:47:20 EDT" name="tearDownClass" finished-at="2023-10-03T19:47:20 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="bornoCLOSEurl()[pri:0, instance:borno_testRunner.borno_TestRunner@4e5ed836]" started-at="2023-10-03T19:47:20 EDT" name="bornoCLOSEurl" finished-at="2023-10-03T19:47:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bornoCLOSEurl -->
+      </class> <!-- borno_testRunner.borno_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

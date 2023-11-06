@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify bornouser can create new account",
+        "description": "",
+        "id": "this-is-an-account-creation-functionality;verify-bornouser-can-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999444900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch \u003c\"url\"\u003e borno",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 9
+                }
+              ],
+              "location": "borno_signin.launch_borno(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3412078100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "mouse hover to signin page",
+            "match": {
+              "location": "borno_signin.mouse_hover_to_signin_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3723942800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Create an Account",
+            "match": {
+              "location": "borno_createaccount.click_Create_an_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2683763300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Type first name last name email and passward",
+            "match": {
+              "location": "borno_createaccount.type_first_name_last_name_email_and_passward()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3179670100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on check box",
+            "match": {
+              "location": "borno_createaccount.click_on_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189764100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Create account button",
+            "match": {
+              "location": "borno_createaccount.click_on_Create_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify bornouser can create new account",
+            "match": {
+              "location": "borno_createaccount.verify_bornouser_can_create_new_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Sweet"
+          }
+        ]
+      }
+    ],
+    "name": "This is an account creation functionality",
+    "description": "",
+    "id": "this-is-an-account-creation-functionality",
+    "keyword": "Feature",
+    "uri": "borno_createAccount.feature"
+  }
+]
